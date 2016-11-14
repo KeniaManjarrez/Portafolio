@@ -5,7 +5,7 @@
     var app = angular.module('myPortfolio', []);
     app.controller('TabController', function(){
         this.tab = 1;
-        //$('html, body').animate({ scrollTop: 0 }, 'fast');
+        $('html, body').animate({ scrollTop: 0 }, 'fast');
         this.setTab = function(newValue){
             this.tab = newValue;
             $('html, body').animate({ scrollTop: 0 }, 'fast');
